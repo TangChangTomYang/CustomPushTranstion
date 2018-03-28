@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YRPushViewController.h
 //  Present
 //
 //  Created by mango on 2018/3/28.
@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface YRPushViewController : UIViewController
+@property (nonatomic, strong)UIButton *button;
 @end

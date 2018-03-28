@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB25F5F0206B5E7F0059558C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5EF206B5E7F0059558C /* ViewController.m */; };
+		DB25F5F3206B5F1D0059558C /* YRPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5F2206B5F1D0059558C /* YRPushViewController.m */; };
+		DB25F5F6206B5F5D0059558C /* YRPushTranstionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5F5206B5F5D0059558C /* YRPushTranstionAnimation.m */; };
+		DB25F5F9206B67660059558C /* YRPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5F8206B67660059558C /* YRPopViewController.m */; };
+		DB25F5FC206B67880059558C /* YRPopTranstionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5FB206B67880059558C /* YRPopTranstionAnimation.m */; };
+		DB25F5FF206B727E0059558C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB25F5FD206B727D0059558C /* UIView+Extension.m */; };
 		DBC2CE67206B27FF009A1134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC2CE66206B27FF009A1134 /* main.m */; };
 		DBC2CE6A206B27FF009A1134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC2CE69206B27FF009A1134 /* AppDelegate.m */; };
-		DBC2CE6D206B27FF009A1134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC2CE6C206B27FF009A1134 /* ViewController.m */; };
 		DBC2CE70206B27FF009A1134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC2CE6E206B27FF009A1134 /* Main.storyboard */; };
 		DBC2CE72206B27FF009A1134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC2CE71206B27FF009A1134 /* Assets.xcassets */; };
 		DBC2CE75206B27FF009A1134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC2CE73206B27FF009A1134 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB25F5EE206B5E7F0059558C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB25F5EF206B5E7F0059558C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB25F5F1206B5F1D0059558C /* YRPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPushViewController.h; sourceTree = "<group>"; };
+		DB25F5F2206B5F1D0059558C /* YRPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPushViewController.m; sourceTree = "<group>"; };
+		DB25F5F4206B5F5D0059558C /* YRPushTranstionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPushTranstionAnimation.h; sourceTree = "<group>"; };
+		DB25F5F5206B5F5D0059558C /* YRPushTranstionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPushTranstionAnimation.m; sourceTree = "<group>"; };
+		DB25F5F7206B67660059558C /* YRPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopViewController.h; sourceTree = "<group>"; };
+		DB25F5F8206B67660059558C /* YRPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopViewController.m; sourceTree = "<group>"; };
+		DB25F5FA206B67880059558C /* YRPopTranstionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPopTranstionAnimation.h; sourceTree = "<group>"; };
+		DB25F5FB206B67880059558C /* YRPopTranstionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRPopTranstionAnimation.m; sourceTree = "<group>"; };
+		DB25F5FD206B727D0059558C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DB25F5FE206B727D0059558C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		DBC2CE62206B27FF009A1134 /* Present.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Present.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC2CE66206B27FF009A1134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBC2CE68206B27FF009A1134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBC2CE69206B27FF009A1134 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DBC2CE6B206B27FF009A1134 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DBC2CE6C206B27FF009A1134 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DBC2CE6F206B27FF009A1134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBC2CE71206B27FF009A1134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC2CE74206B27FF009A1134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +75,18 @@
 			children = (
 				DBC2CE68206B27FF009A1134 /* AppDelegate.h */,
 				DBC2CE69206B27FF009A1134 /* AppDelegate.m */,
-				DBC2CE6B206B27FF009A1134 /* ViewController.h */,
-				DBC2CE6C206B27FF009A1134 /* ViewController.m */,
+				DB25F5FE206B727D0059558C /* UIView+Extension.h */,
+				DB25F5FD206B727D0059558C /* UIView+Extension.m */,
+				DB25F5EE206B5E7F0059558C /* ViewController.h */,
+				DB25F5EF206B5E7F0059558C /* ViewController.m */,
+				DB25F5F1206B5F1D0059558C /* YRPushViewController.h */,
+				DB25F5F2206B5F1D0059558C /* YRPushViewController.m */,
+				DB25F5F7206B67660059558C /* YRPopViewController.h */,
+				DB25F5F8206B67660059558C /* YRPopViewController.m */,
+				DB25F5F4206B5F5D0059558C /* YRPushTranstionAnimation.h */,
+				DB25F5F5206B5F5D0059558C /* YRPushTranstionAnimation.m */,
+				DB25F5FA206B67880059558C /* YRPopTranstionAnimation.h */,
+				DB25F5FB206B67880059558C /* YRPopTranstionAnimation.m */,
 				DBC2CE6E206B27FF009A1134 /* Main.storyboard */,
 				DBC2CE71206B27FF009A1134 /* Assets.xcassets */,
 				DBC2CE73206B27FF009A1134 /* LaunchScreen.storyboard */,
@@ -110,7 +135,8 @@
 				TargetAttributes = {
 					DBC2CE61206B27FF009A1134 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = UM24Q5JH6X;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -150,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC2CE6D206B27FF009A1134 /* ViewController.m in Sources */,
+				DB25F5F6206B5F5D0059558C /* YRPushTranstionAnimation.m in Sources */,
+				DB25F5F0206B5E7F0059558C /* ViewController.m in Sources */,
 				DBC2CE6A206B27FF009A1134 /* AppDelegate.m in Sources */,
+				DB25F5FC206B67880059558C /* YRPopTranstionAnimation.m in Sources */,
 				DBC2CE67206B27FF009A1134 /* main.m in Sources */,
+				DB25F5F3206B5F1D0059558C /* YRPushViewController.m in Sources */,
+				DB25F5FF206B727E0059558C /* UIView+Extension.m in Sources */,
+				DB25F5F9206B67660059558C /* YRPopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -274,10 +305,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
 				INFOPLIST_FILE = Present/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scene.Present;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d4742443-66fb-40fb-8a67-749a040e1b87";
+				PROVISIONING_PROFILE_SPECIFIER = lettin3.0_dev1127;
 			};
 			name = Debug;
 		};
@@ -285,10 +320,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
 				INFOPLIST_FILE = Present/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scene.Present;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31b1f6b7-57ef-4008-aefc-323119a9712d";
+				PROVISIONING_PROFILE_SPECIFIER = lettin3.0_hoc1127;
 			};
 			name = Release;
 		};
@@ -311,6 +351,7 @@
 				DBC2CE7B206B27FF009A1134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YRPopViewController.h
 //  Present
 //
 //  Created by mango on 2018/3/28.
@@ -8,5 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface YRPopViewController : UIViewController
+
 @end
